@@ -135,10 +135,11 @@
             </div>
           </div>
         </section>
+               {exp:channel:entries channel="objetivos" limit="1"}
         <section id="objetivos" class="bg-gray-light pv-35">
           <div class="container">
-            <h1 class="text-center lead">Nuestros Objetivos</h1>
-            <p class="lead">El objetivo final del programa es sensibilizar al país acerca de la urgencia de incrementar la inversión en infraestructura a niveles de 7% del PBI para lograr más crecimiento, mayor acceso y reducir la pobreza. Para ello, se esperan alcanzar los siguientes objetivos inmediatos:</p>
+            <h1 class="text-center lead">{title}</h1>
+            <p class="lead">{introduccion_objetivos}</p>
           </div>
         </section>
         <section class="bg-success pv-35">
@@ -146,7 +147,7 @@
             <div class="row">
               <div class="col-sm-3 text-center"><img src="assets/img/circle-1.png" alt=""></div>
               <div class="col-sm-9 mh-210 flex flex-column flex-middle">
-                <p class="lead">Monitorear los niveles de inversión pública y privada para generar información confiable que permita identificar la situación real de la infraestructura en el Perú, así como desarrollar e incluir en la agenda pública un listado de proyectos concesionados con su estado de avance (semáforo de proyectos). </p>
+                <p class="lead">{punto1_objetivos}</p>
               </div>
             </div>
           </div>
@@ -155,7 +156,7 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-9 mh-210 flex flex-column flex-middle">
-                <p class="lead">Promover un espacio de confianza de diálogo público – privado para discutir sobre recomendaciones de políticas públicas a fin de acelerar el proceso de inversión en infraestructura, reconocer las buenas prácticas del sector y difundir las principales inversiones ejecutadas y por ejecutar a nivel regional y nacional.</p>
+                <p class="lead">{punto2_objetivos}</p>
               </div>
               <div class="col-sm-3 text-center"><img src="assets/img/circle-2.png" alt=""></div>
             </div>
@@ -166,11 +167,12 @@
             <div class="row">
               <div class="col-sm-3 text-center"><img src="assets/img/circle-3.png" alt=""></div>
               <div class="col-sm-9 mh-210 flex flex-column flex-middle">
-                <p class="lead">Contribuir a la aceleración y mayor uso de “obras por impuestos” para ayudar a incrementar la inversión pública en infraestructura confiable y eficiente.</p>
+                <p class="lead">{punto3_objetivos}</p>
               </div>
             </div>
           </div>
         </section>
+        {/exp:channel:entries}
         <section id="iniciativas" class="pv-35">
           <div class="container">
             <h1 class="lead text-center">Nuestras Iniciativas</h1>
