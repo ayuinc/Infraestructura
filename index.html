@@ -176,41 +176,39 @@
           </div>
         </section>
         {/exp:channel:entries}
+        {exp:channel:entries channel="iniciativas" limit="1"}
         <section id="iniciativas" class="pv-35">
           <div class="container">
-            <h1 class="lead text-center">Nuestras Iniciativas</h1>
+            <h1 class="lead text-center">{titulo_inciativas}</h1>
           </div>
           <div class="container">
             <div class="row pv-21">
               <div class="col-sm-5"><img src="assets/img/iniciativas-4.jpg" alt="" class="img-responsive"></div>
               <div class="col-sm-7 lead">
-                <strong>1.  Observatorio de la Inversión en Infraestructura en el Perú </strong>
-                <p>Elaborado por Apoyo Consultoría, será el primer servicio de medición y seguimiento de la evolución de la inversión pública y privada en infraestructura en el país. Así, permitirá realizar comparaciones, análisis y determinar acciones que permitan mejorar e incrementar la inversión futura. Tendrá un listado de proyectos concesionados con su estado de avance (semáforo de proyectos). Tendrá una entrega anual, en noviembre, en la cual se manejará data acumulada del año anterior, así como entregas complementarias trimestrales en las que se analizarán avances en indicadores relevantes. <a href="assets/documents/observatorio.pdf" target="_blank">Ver reporte adjunto.</a></p>
+                {iniciativa1_descripcion}
               </div>
             </div>
             <div class="row pv-21">
               <div class="col-sm-5"><img src="assets/img/iniciativas-1.jpg" alt="" class="img-responsive"></div>
               <div class="col-sm-7 lead">
-                <strong>2.  Congreso Anual de “Infraestructura para Todos” </strong>
-                <p>Será el punto de encuentro de todos los actores que promueven la inversión en infraestructura en el país. Se convertirá en el principal evento del sector y, por ende, buscará ser el centro de las discusiones sobre las acciones que deben implementarse para potenciar las inversiones en el sector. En lugar de discutir sobre lo que se ha hecho, se promoverá la discusión prospectiva para identificar políticas e inversiones de alto impacto en el futuro. </p>
+                {iniciativa2_descripcion}
               </div>
             </div>
             <div class="row pv-21">
               <div class="col-sm-5"><img src="assets/img/iniciativas-2.jpg" alt="" class="img-responsive"></div>
               <div class="col-sm-7 lead">
-                <strong>3. Conversatorios Periódicos de “Infraestructura para Todos”</strong>
-                <p>Desarrollados por AMCHAM, en el marco de su Comité de Infraestructura. Serán espacios trimestrales de diálogo público-privado donde se compartirán y discutirán recomendaciones específicas de políticas públicas sectoriales orientadas a acelerar las inversiones en infraestructura, contribuyendo así a fortalecer la confianza y visión de largo plazo entre el sector público y privado. </p>
+                {iniciativa3_descripcion}
               </div>
             </div>
             <div class="row pv-21">
               <div class="col-sm-5"><img src="assets/img/iniciativas-3.jpg" alt="" class="img-responsive"></div>
               <div class="col-sm-7 lead">
-                <strong>4. Grupo de promoción y financiación colectiva de “Infraestructura por Impuestos” (GIxI)</strong>
-                <p>El programa contribuirá a impulsar la creación de un grupo autónomo que reúna a los directivos de las principales empresas comprometidas con incrementar y acelerar el uso y financiamiento de Obras por Impuestos para el desarrollo de infraestructura en el país. Su función será coordinar junto al Estado el financiamiento colectivo de proyectos de mayor impacto en la sociedad, compartir buenas prácticas así como factores clave para incrementar y acelerar el uso de esta herramienta de manera confiable y eficiente.</p>
+                {iniciativa4_descripcion}
               </div>
             </div>
           </div>
         </section>
+        {/exp:channel:entries}
         <section id="socios" class="pv-35 bg-gray-lighter">
           <div class="container">
             <h1 class="lead text-center">Socios</h1>
