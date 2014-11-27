@@ -36,3 +36,35 @@ body {
 		}
 	}
 }
+
+
+#noticias {
+	background: #eee;
+	.list-noticias {
+	  padding-top: 21px;
+	  .noticias-grid {
+	  	a.text-noticias {
+		  	display: block;
+			  border-radius: 3px;
+			  box-shadow: 0 2px 14px 2px #bbb;
+			  color: gray;
+			  text-decoration: none;
+			  hr {
+			  	border-top: 1px solid #ccc;
+			  }
+			  .list-noticias-img {
+					overflow: hidden;
+					height: 168px;
+					.titulo-noticia {
+						color: #006bce;
+					}
+			  }
+			  img {
+			  	width: 282px;
+				  height: auto;
+				  border-radius: 3px 3px 0 0;
+			  }
+		  }
+	  }
+	}
+}
