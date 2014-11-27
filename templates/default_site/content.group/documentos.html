@@ -117,12 +117,13 @@
               </div>
             </div>
             <div class="row mb-21">
+              {exp:channel:entries channel="documentos" limit="3"}
               <div class="col-md-4 mh-210">
-                <h4>INFRAESTRUCTURA DE AGUA POTABLE Y ALCANTARILLADO: VISIÓN AL 2023 Y RECOMENDACIONES DE POLÍTICAS</h4>
-                <p>En 2023, se habrá consolidado la modernización en la gestión de las EPS. Estas serán financieramente sólidas y proveerán acceso a servicios de saneamiento de calidad al 100% de la población bajo su jurisdicción.</p>
-                <a href="#" target="_blank" class="btn btn-descargar pull-right mr-21">Descargar <img src="../assets/img/download.png"></a>
+                <h4>{title}</h4>
+                <p>{introduccion_documentos}</p>
+                <a href="{documentos_archivo}" target="_blank" class="btn btn-descargar pull-right mr-21">Descargar <img src="../assets/img/download.png"></a>
               </div>
-              <div class="col-md-4 mh-210">
+              <!-- <div class="col-md-4 mh-210">
                 <h4>INFRAESTRUCTURA EN ENERGÍA: SUEÑOS Y RECOMENDACIONES DE POLÍTICAS</h4>
                 <p>Para el 2023, el 100% de peruanos, incluyendo áreas rurales, contarán con energía eléctrica. El Perú, en el año 2023, será un país que posea Seguridad Energética.</p>
                 <a href="#" target="_blank" class="btn btn-descargar pull-right mr-21">Descargar <img src="../assets/img/download.png"></a>
@@ -131,9 +132,17 @@
                 <h4>INFRAESTRUCTURA EN TELECOMUNICACIONES: VISIÓN AL 2023 Y RECOMENDACIONES DE POLÍTICAS</h4>
                 <p>El 2005 sólo 433 de 1831 distritos (27%) contaban acceso móvil por, al menos, un operador. No obstante, a junio de 2013 sólo 6 distritos aún no cuentan con acceso móvil (1825 de 1831 distritos conectados).</p>
                 <a href="#" target="_blank" class="btn btn-descargar pull-right mr-21">Descargar <img src="../assets/img/download.png"></a>
-              </div>
+              </div> -->
+              {/exp:channel:entries}
             </div>
             <div class="row">
+              {exp:channel:entries channel="documentos" limit="3"}
+              <div class="col-md-4 mh-210">
+                <h4>{title}</h4>
+                <p>{introduccion_documentos}</p>
+                <a href="{documentos_archivo}" target="_blank" class="btn btn-descargar pull-right mr-21">Descargar <img src="../assets/img/download.png"></a>
+              </div>
+              <!--
               <div class="col-md-4 mh-210">
                 <h4 class="uppercase">Infraestructura de transporte: visión al 2023 y recomendaciones de políticas</h4>
                 <p>Se logrará tener infraestructura de transporte de calidad y correctamente dimensionada, que coloque al Perú entre los top 30 del mundo.</p>
@@ -148,7 +157,7 @@
                 <h4 class="uppercase">LA BRECHA DE INFRAESTRUCTURA CRECE</h4>
                 <p>El servicio móvil se encuentra disponible en el 99% de los distritos a nivel nacional. En el 2005, sólo en el 27% de distritos se podía brindar el servicio móvil</p>
                 <a href="#" target="_blank" class="btn btn-descargar pull-right mr-21">Descargar <img src="../assets/img/download.png"></a>
-              </div>
+              </div>-->
             </div>
           </div>
         </section>
