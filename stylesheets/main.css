@@ -2092,8 +2092,7 @@ tbody.collapse.in {
       display: block;
       padding: 10px 15px; }
       .nav > li > a:hover, .nav > li > a:focus {
-        text-decoration: none;
-        background-color: #eaeae9; }
+        text-decoration: none;}
     .nav > li.disabled > a {
       color: #c7c7c4; }
       .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
@@ -3392,11 +3391,13 @@ button span {
 .user-login-header-form {
   padding-top: 10px; }
 
-a.text-documentos {
-  display: block;
-  border-radius: 3px;
-  box-shadow: 0 2px 14px 2px #bbb;
-  color: gray;
-  text-decoration: none; }
+#documentos {
+  background: #eee; }
+  #documentos p {
+    color: gray; }
+  #documentos a.btn-descargar {
+    border: 1px solid; }
+    #documentos a.btn-descargar:hover {
+      color: gray; }
 
 /*# sourceMappingURL=main.css.map */
