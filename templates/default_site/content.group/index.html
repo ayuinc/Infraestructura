@@ -98,13 +98,10 @@
                     <a href="#consejo">CONSEJO</a>
                   </li>
                   <li>
-                    <a href="#noticias">NOTICIAS</a>
+                    <a href="#events">NOTICIAS</a>
                   </li>
                   <li>
                     <a href="#follow" id="follow">DOCUMENTOS</a>
-                  </li>
-                  <li>
-                    <a href="#"></a>
                   </li>   
                 </ul>
               </div>
@@ -138,7 +135,7 @@
             </div>
           </div>
         </section>
-        {exp:channel:entries channel="nuestros-objetivos" limit="1"}
+               {exp:channel:entries channel="objetivos" limit="1"}
         <section id="objetivos" class="bg-gray-light pv-35">
           <div class="container">
             <h1 class="text-center lead">{title}</h1>
@@ -176,39 +173,41 @@
           </div>
         </section>
         {/exp:channel:entries}
-        {exp:channel:entries channel="iniciativas" limit="1"}
         <section id="iniciativas" class="pv-35">
           <div class="container">
-            <h1 class="lead text-center">{titulo_inciativas}</h1>
+            <h1 class="lead text-center">Nuestras Iniciativas</h1>
           </div>
           <div class="container">
             <div class="row pv-21">
               <div class="col-sm-5"><img src="assets/img/iniciativas-4.jpg" alt="" class="img-responsive"></div>
               <div class="col-sm-7 lead">
-                {iniciativa1_descripcion}
+                <strong>1.  Observatorio de la Inversión en Infraestructura en el Perú </strong>
+                <p>Elaborado por Apoyo Consultoría, será el primer servicio de medición y seguimiento de la evolución de la inversión pública y privada en infraestructura en el país. Así, permitirá realizar comparaciones, análisis y determinar acciones que permitan mejorar e incrementar la inversión futura. Tendrá un listado de proyectos concesionados con su estado de avance (semáforo de proyectos). Tendrá una entrega anual, en noviembre, en la cual se manejará data acumulada del año anterior, así como entregas complementarias trimestrales en las que se analizarán avances en indicadores relevantes. <a href="assets/documents/observatorio.pdf" target="_blank">Ver reporte adjunto.</a></p>
               </div>
             </div>
             <div class="row pv-21">
               <div class="col-sm-5"><img src="assets/img/iniciativas-1.jpg" alt="" class="img-responsive"></div>
               <div class="col-sm-7 lead">
-                {iniciativa2_descripcion}
+                <strong>2.  Congreso Anual de “Infraestructura para Todos” </strong>
+                <p>Será el punto de encuentro de todos los actores que promueven la inversión en infraestructura en el país. Se convertirá en el principal evento del sector y, por ende, buscará ser el centro de las discusiones sobre las acciones que deben implementarse para potenciar las inversiones en el sector. En lugar de discutir sobre lo que se ha hecho, se promoverá la discusión prospectiva para identificar políticas e inversiones de alto impacto en el futuro. </p>
               </div>
             </div>
             <div class="row pv-21">
               <div class="col-sm-5"><img src="assets/img/iniciativas-2.jpg" alt="" class="img-responsive"></div>
               <div class="col-sm-7 lead">
-                {iniciativa3_descripcion}
+                <strong>3. Conversatorios Periódicos de “Infraestructura para Todos”</strong>
+                <p>Desarrollados por AMCHAM, en el marco de su Comité de Infraestructura. Serán espacios trimestrales de diálogo público-privado donde se compartirán y discutirán recomendaciones específicas de políticas públicas sectoriales orientadas a acelerar las inversiones en infraestructura, contribuyendo así a fortalecer la confianza y visión de largo plazo entre el sector público y privado. </p>
               </div>
             </div>
             <div class="row pv-21">
               <div class="col-sm-5"><img src="assets/img/iniciativas-3.jpg" alt="" class="img-responsive"></div>
               <div class="col-sm-7 lead">
-                {iniciativa4_descripcion}
+                <strong>4. Grupo de promoción y financiación colectiva de “Infraestructura por Impuestos” (GIxI)</strong>
+                <p>El programa contribuirá a impulsar la creación de un grupo autónomo que reúna a los directivos de las principales empresas comprometidas con incrementar y acelerar el uso y financiamiento de Obras por Impuestos para el desarrollo de infraestructura en el país. Su función será coordinar junto al Estado el financiamiento colectivo de proyectos de mayor impacto en la sociedad, compartir buenas prácticas así como factores clave para incrementar y acelerar el uso de esta herramienta de manera confiable y eficiente.</p>
               </div>
             </div>
           </div>
         </section>
-        {/exp:channel:entries}
         <section id="socios" class="pv-35 bg-gray-lighter">
           <div class="container">
             <h1 class="lead text-center">Socios</h1>
@@ -311,53 +310,7 @@
 		          </div>
 	          </div>  
           </div>
-        </section>
-        <section id="noticias" class="pt-42 pb-56">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <h1>Noticias</h1>
-              </div>
-            </div>
-            <div class="row list-noticias m-21">
-              <div class=" col-md-4 list-unstyled noticias-grid">
-                <a href="#" target="_blank" class="text-noticias">
-                  <div class="portafolio-img text-center p-14 mh-210">
-                    <img src="assets/img/ipae-cade.png"><hr class="mb-0">
-                  </div>
-                  <div class="list-noticias-img p-14">
-                    <span class="titulo-noticia"><em>“EL DESAFÍO DEL 7% PARA EL CRECIMIENTO DEL PERÚ”</em></span>
-                    <p>Necesitamos reaccionar, urge aumentar la inversión pública y privada en infraestructura. Juntos cruzada nacional para más inversión en infraestructura.</p>
-                    <small class="titulo-noticia">Leer noticia</small>
-                  </div>
-                </a>
-              </div>
-              <div class=" col-md-4 list-unstyled noticias-grid">
-                <a href="#" target="_blank" class="text-noticias">
-                  <div class="portafolio-img text-center p-14 mh-210">
-                    <img src="assets/img/noticias.png"><hr class="mb-0">
-                  </div>
-                  <div class="list-noticias-img p-14">
-                    <span class="titulo-noticia"><em>“LA EJECUCIÓN DE OBRAS SERÁ VIGILADA PARA EVITAR RETRASOS”</em></span>
-                    <p>Según Apoyo Consultoría, el próximo año se puede retrasar más la ejecución de megaproyectos por cambios en los gobiernos regionales y municipales.</p>
-                    <small class="titulo-noticia">Leer noticia</small>
-                  </div>
-                </a>
-              </div>
-              <div class=" col-md-4 list-unstyled noticias-grid">
-                <a href="#" target="_blank" class="text-noticias">
-                  <div class="portafolio-img text-center p-14 mh-210">
-                    <img src="assets/img/noticias2.png"><hr class="mb-0">
-                  </div>
-                  <div class="list-noticias-img p-14">
-                    <span class="titulo-noticia"><em>“EMPRESARIOS HARÁN SEGUIMIENTO A LA INVERSÓN EN INFRAESTRUCTURA”</em></span>
-                    <p>Principales proyectos adjudicados suman más de US$12.000 millones y deberían iniciarse en los próximos meses.</p>
-                    <small class="titulo-noticia">Leer noticia</small>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
+
         </section>
         <footer class="bg-gray-darker pv-21">
           <div class="container text-white">
@@ -384,6 +337,6 @@
     <script src="js/b3/transition.js"></script>
     <script src="js/b3/collapse.js"></script>
     <script src="js/b3/dropdown.js"></script>
-    <script src="js/app/lib/"></script> 
+    <script src="js/app/lib/"></script>
   </body>
 </html>
