@@ -117,7 +117,7 @@
               </div>
             </div>
             <div class="row mb-21">
-              {exp:channel:entries channel="documentos" entry_id_from="10" entry_id_from="12"}
+              {exp:channel:entries channel="documentos" limit="6"}
               <div class="col-md-4 mh-210">
                 <h4>{title}</h4>
                 <p>{introduccion_documentos}</p>
@@ -125,30 +125,14 @@
               </div>
               {/exp:channel:entries}
             </div>
-            <div class="row">
-              {exp:channel:entries channel="documentos" entry_id_from="13" entry_id_from="15"}
+             <div class="row mb-21">
+              {exp:channel:entries channel="documentos" limit="6"}
               <div class="col-md-4 mh-210">
                 <h4>{title}</h4>
                 <p>{introduccion_documentos}</p>
                 <a href="{documentos_archivo}" target="_blank" class="btn btn-descargar pull-right mr-21">Descargar <img src="../assets/img/download.png"></a>
               </div>
               {/exp:channel:entries}
-              <!--
-              <div class="col-md-4 mh-210">
-                <h4 class="uppercase">Infraestructura de transporte: visión al 2023 y recomendaciones de políticas</h4>
-                <p>Se logrará tener infraestructura de transporte de calidad y correctamente dimensionada, que coloque al Perú entre los top 30 del mundo.</p>
-                <a href="#" target="_blank" class="btn btn-descargar pull-right mr-21">Descargar <img src="../assets/img/download.png"></a>
-              </div>
-              <div class="col-md-4 mh-210">
-                <h4 class="uppercase">Inversión en Infraestructura: Políticas Transversales</h4>
-                <p>En el 2023, el Plan Nacional Multimodal de Infraestructura a nivel nacional se habrá venido ejecutando.</p>
-                <a href="#" target="_blank" class="btn btn-descargar pull-right mr-21">Descargar <img src="../assets/img/download.png"></a>
-              </div>
-              <div class="col-md-4 mh-210">
-                <h4 class="uppercase">LA BRECHA DE INFRAESTRUCTURA CRECE</h4>
-                <p>El servicio móvil se encuentra disponible en el 99% de los distritos a nivel nacional. En el 2005, sólo en el 27% de distritos se podía brindar el servicio móvil</p>
-                <a href="#" target="_blank" class="btn btn-descargar pull-right mr-21">Descargar <img src="../assets/img/download.png"></a>
-              </div>-->
             </div>
           </div>
         </section>
