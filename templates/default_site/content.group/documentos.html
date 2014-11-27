@@ -117,26 +117,16 @@
               </div>
             </div>
             <div class="row mb-21">
-              {exp:channel:entries channel="documentos" limit="3"}
+              {exp:channel:entries channel="documentos" entry_id_from="11" entry_id_from="13"}
               <div class="col-md-4 mh-210">
                 <h4>{title}</h4>
                 <p>{introduccion_documentos}</p>
                 <a href="{documentos_archivo}" target="_blank" class="btn btn-descargar pull-right mr-21">Descargar <img src="../assets/img/download.png"></a>
               </div>
-              <!-- <div class="col-md-4 mh-210">
-                <h4>INFRAESTRUCTURA EN ENERGÍA: SUEÑOS Y RECOMENDACIONES DE POLÍTICAS</h4>
-                <p>Para el 2023, el 100% de peruanos, incluyendo áreas rurales, contarán con energía eléctrica. El Perú, en el año 2023, será un país que posea Seguridad Energética.</p>
-                <a href="#" target="_blank" class="btn btn-descargar pull-right mr-21">Descargar <img src="../assets/img/download.png"></a>
-              </div>
-              <div class="col-md-4 mh-210">
-                <h4>INFRAESTRUCTURA EN TELECOMUNICACIONES: VISIÓN AL 2023 Y RECOMENDACIONES DE POLÍTICAS</h4>
-                <p>El 2005 sólo 433 de 1831 distritos (27%) contaban acceso móvil por, al menos, un operador. No obstante, a junio de 2013 sólo 6 distritos aún no cuentan con acceso móvil (1825 de 1831 distritos conectados).</p>
-                <a href="#" target="_blank" class="btn btn-descargar pull-right mr-21">Descargar <img src="../assets/img/download.png"></a>
-              </div> -->
               {/exp:channel:entries}
             </div>
             <div class="row">
-              {exp:channel:entries channel="documentos" limit="3"}
+              {exp:channel:entries channel="documentos" entry_id_from="14" entry_id_from="16"}
               <div class="col-md-4 mh-210">
                 <h4>{title}</h4>
                 <p>{introduccion_documentos}</p>
