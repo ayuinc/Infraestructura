@@ -2092,7 +2092,8 @@ tbody.collapse.in {
       display: block;
       padding: 10px 15px; }
       .nav > li > a:hover, .nav > li > a:focus {
-        text-decoration: none;}
+        text-decoration: none;
+        background-color: #eaeae9; }
     .nav > li.disabled > a {
       color: #c7c7c4; }
       .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
@@ -3365,6 +3366,15 @@ body {
         height: auto;
         border-radius: 3px 3px 0 0; }
 
+#documentos {
+  background: white; }
+  #documentos p {
+    color: gray; }
+  #documentos a.btn-descargar {
+    border: 1px solid; }
+    #documentos a.btn-descargar:hover {
+      color: gray; }
+
 .main-nav {
   min-height: 30px;
   width: 100%; }
@@ -3390,14 +3400,5 @@ button span {
 
 .user-login-header-form {
   padding-top: 10px; }
-
-#documentos {
-  background: #eee; }
-  #documentos p {
-    color: gray; }
-  #documentos a.btn-descargar {
-    border: 1px solid; }
-    #documentos a.btn-descargar:hover {
-      color: gray; }
 
 /*# sourceMappingURL=main.css.map */
