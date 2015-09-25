@@ -1,0 +1,21 @@
+{exp:channel:entries channel="noticias" limit="1"}
+{embed="includes/header"}
+{embed="includes/nav"}
+    <section id="documentos" class="pt-42 pb-56">
+      <div class="container">
+        <div class="row mb-21">
+          <div class="col-md-8 col-md-offset-2 pv-21">
+            <h1 class="light">{title}</h1>
+            <p class="pt-14">{introduccion_noticia}</p>
+            <div class="pv-21">
+	            <img src="{archivo_noticia}" width="100%">
+            </div>
+            <div class="pv-21">
+							<div id="disqus_thread"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{/exp:channel:entries}        
+{embed="includes/footer"}

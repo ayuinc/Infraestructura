@@ -1,0 +1,26 @@
+{embed="includes/header"}
+{embed="includes/nav"}
+  <section id="documentos" class="pt-42 pb-56">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center pb-21">
+          <h1>Noticias</h1>
+        </div>
+      </div>
+      <div class="row mb-21">
+        {exp:channel:entries channel="noticias" limit="10"}
+        <div class="col-md-8 col-md-offset-2 pv-21">
+          <h4>{title}</h4>
+          <p>{introduccion_noticia}</p>
+          <a href="{site_url}noticias/articulo/{url_title}">Lee más →</a>
+        </div>
+		    {paginate}
+		    <div class="col-md-8 col-md-offset-2 pv-21">
+		        <p class="text-center">Página {current_page} de {total_pages} páginas {pagination_links}</p>
+		    </div>    
+		    {/paginate}
+        {/exp:channel:entries}
+      </div>
+    </div>
+  </section>
+{embed="includes/footer"}
